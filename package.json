@@ -1,0 +1,33 @@
+{
+  "name": "cc01",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/main.ts",
+  "module": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "clean": "rm -rf dist/*",
+    "build": "npm run clean && parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftedsystems/cc01.git"
+  },
+  "author": "Mario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craftedsystems/cc01/issues"
+  },
+  "homepage": "https://github.com/craftedsystems/cc01#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not IE < 12",
+    "not dead"
+  ]
+}
